@@ -4,7 +4,9 @@
 O projeto visava a construção de um circuito de uma fonte de tensão ajustável entre 3V
 a 12V com 100mA de corrente na carga. Tendo como a tensão de entrada uma tomada de
 127V.
-O projeto foi simulado digitalmente no site Falstad: 
+O projeto foi simulado digitalmente no site Falstad, no link: 
+![imagem do circuito no Falstad](img/imgCircuito.png)
+
 
 ## Componentes Utilizados:
 
@@ -25,6 +27,8 @@ O projeto foi simulado digitalmente no site Falstad:
 
 ## Explicação do uso dos componentes: 
 
+
+
 ### Transformador:
 Neste circuito o transformador é o componente inicial. Seu papel é transformar a tensão
 de pico vinda da tomada em uma tensão menor, proporcional ao número de espiras de cada
@@ -32,9 +36,12 @@ um dos lados.
 No circuito, é necessário realizar a retificação da corrente alternada vinda da tomada, que é realizado pela ponte retificadora.\
 O transformador escolhido para o projeto, após essa retificação, mediu 24,2V no capacitor.
 Desse modo, conseguimos calcular a proporcionalidade no número de espiras para colocar no simulador.
+
 > Vpico = 127 * √2 ≈ 179,61 V ≈ 180 V
 
-> Relação de espiras: 179,61 ÷ 24,2 ≈ 7,4 
+> Relação de espiras: 179,61 ÷ 24,2 ≈ 7,4
+
+![imagem do transformador no Falstad](img/imgTransformador.png)
 
 ### Ponte Retificadora (Ponte de Diodos):
 A corrente da tomada se comporta de maneira alternada, a ponte de diodo tem como objetivo direcionar o caminho da corrente em um único sentido, transformando em corrente contínua. Desse modo, é possívelaproveitar a corrente vinda de ambas as direções.\
@@ -48,9 +55,9 @@ Calculando a corrente total do circuito:
 
 > I<sub>total</sub> = I<sub>carga</sub>+ I<sub>led</sub> + I<sub>zenner</sub> + I<sub>potenciometro</sub>\
   I<sub>total</sub> = 0,1 + 0,0045 + 0,0018 = 0,1063 A\
-  C = i/(f * V<sub>ripple</sub>)\\)i/(f * V<sub>ripple</sub>)\
-  Vripple = 0.1*24,2V = 2,42V\
-  C = 0.1/2*60*2,4 = 347,22 μF
+  C = I<sub>total</sub> / (f * V<sub>ripple</sub>)\
+  Vripple = 0.1 * 24,2V = 2,42V \
+  C = 0.1 / (2 * 60 * 2,4 ) = 347,22 μF
   
   Onde I é a corrente, f a frequência e V<sub>ripple</sub> a tensão de ripple.
 
@@ -73,5 +80,6 @@ Os resistores ligados ao led, ao diodo zenner, ao potenciômetro e ao transistor
 ## Imagens do Projeto:
 
 ![Primeira imagem do projeto físico](img/imgFonte.jpg)\
-![Segunda imagem do projeto físico](img/img2fonte.jpg)\
+![Segunda imagem do projeto físico](img/img2fonte.jpg)
+
 
