@@ -68,4 +68,10 @@ O potenciômetro é o componente do circuito capaz de modificar sua resistência
 O transistor é o componente que faz com que uma mudança na carga não altere resto do circuito.
 
 ### Resistores:
-Os resistores ligados ao led, ao diodo zenner, ao potenciômetro e ao transistor foram escolhidos de modo a respeitar a corrente máxima suportada por eles (segundo as especificações). Assim, pegam
+Os resistores ligados ao led, ao diodo zenner, ao potenciômetro e ao transistor foram escolhidos de modo a respeitar a corrente máxima suportada por eles (segundo as especificações). Assim, pegamos os que tínhamos disponíveis e verificamos se essa corrente máxima era respeitada.
+
+## Imagens do Projeto:
+
+![Primeira imagem do projeto físico](img/imgFonte.jpg)\
+![Segunda imagem do projeto físico](img/img2fonte.jpg)\
+
