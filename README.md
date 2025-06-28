@@ -12,7 +12,7 @@ O projeto foi simulado digitalmente no site Falstad.
 
 ## Circuito no  EAGLE:
 
-![Imagem do circuito projetado no EAGLE](img/BRD.png)
+![Imagem do circuito projetado no EAGLE](img/BDR.png)
 
 ![Imagem do esquemático no EAGLE](img/SCH.png)
 
