@@ -4,8 +4,15 @@
 O projeto visava a construção de um circuito de uma fonte de tensão ajustável entre 3V
 a 12V com 100mA de corrente na carga. Tendo como a tensão de entrada uma tomada de
 127V.
-O projeto foi simulado digitalmente no site Falstad, no link: 
+O projeto foi simulado digitalmente no site Falstad, no link: <https://.com/](https://tinyurl.com/2bbb4j2l>
+
 ![imagem do circuito no Falstad](img/imgCircuito.png)
+
+
+## Vídeo explicando o projeto:
+
+<https://drive.google.com/file/d/12u-_e9nXhzFPCVaqadtqyPuUy2_YhOlK/view?usp=sharing>
+
 
 
 ## Componentes Utilizados:
@@ -37,9 +44,12 @@ No circuito, é necessário realizar a retificação da corrente alternada vinda
 O transformador escolhido para o projeto, após essa retificação, mediu 24,2V no capacitor.
 Desse modo, conseguimos calcular a proporcionalidade no número de espiras para colocar no simulador.
 
+
 > Vpico = 127 * √2 ≈ 179,61 V ≈ 180 V
 
 > Relação de espiras: 179,61 ÷ 24,2 ≈ 7,4
+
+
 
 ![imagem do transformador no Falstad](img/imgTransformador.png)
 
