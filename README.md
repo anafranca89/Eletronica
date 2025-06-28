@@ -10,6 +10,10 @@ O projeto foi simulado digitalmente no site Falstad.
 
 [Link para o circuito no Falstad](https://tinyurl.com/2bbb4j2l)
 
+## Circuito no  EAGLE:
+
+![Imagem do circuito projetado no EAGLE](img/imgeagle.jpg)
+
 ## Vídeo explicando o projeto:
 
 [Link para o vídeo](https://drive.google.com/file/d/12u-_e9nXhzFPCVaqadtqyPuUy2_YhOlK/view?usp=sharing)
