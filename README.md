@@ -14,6 +14,8 @@ O projeto foi simulado digitalmente no site Falstad.
 
 ![Imagem do circuito projetado no EAGLE](img/BDR.png)
 
+
+
 ![Imagem do esquemático no EAGLE](img/SCH.png)
 
 Os arquivos .bdr e .sch para abertura no EAGLE estão na pasta "Arquivos_EAGLE"
