@@ -4,14 +4,15 @@
 O projeto visava a construção de um circuito de uma fonte de tensão ajustável entre 3V
 a 12V com 100mA de corrente na carga. Tendo como a tensão de entrada uma tomada de
 127V.
-O projeto foi simulado digitalmente no site Falstad, no link: <https://.com/](https://tinyurl.com/2bbb4j2l>
+O projeto foi simulado digitalmente no site Falstad.
 
 ![imagem do circuito no Falstad](img/imgCircuito.png)
 
+[Link para o circuito no Falstad](https://tinyurl.com/2bbb4j2l)
 
 ## Vídeo explicando o projeto:
 
-<https://drive.google.com/file/d/12u-_e9nXhzFPCVaqadtqyPuUy2_YhOlK/view?usp=sharing>
+[Link para o vídeo](https://drive.google.com/file/d/12u-_e9nXhzFPCVaqadtqyPuUy2_YhOlK/view?usp=sharing)
 
 
 
@@ -28,7 +29,7 @@ O projeto foi simulado digitalmente no site Falstad, no link: <https://.com/](ht
 |1 | Resistor | 2W 100ohm | R$ 1,20 |
 |1 | Diodo Zenner | 13V 1W | R$ 0,50 |
 |1 | Potenciômetro Linear | 10k | R$ 2,20 |
-|1 | Transistor  |  2N2222A | R$ 2,60 |
+|1 | Transistor NPN |  2N2222A | R$ 2,60 |
 | TOTAL |--------- |--------- |R$ 22,98|
 
 
