@@ -89,6 +89,11 @@ void setup()
   }
 }
 
+void loop()
+{
+  delay(10); // Small delay for performance
+}
+
 
 `````
 ## Imagens do Projeto:
