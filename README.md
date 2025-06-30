@@ -41,7 +41,6 @@ Devemos ter no mínimo 250Ω nos resistores, então os resistores de 330Ω funci
 
 ## Código Arduino;
 ````c++
-//
 int counter;
 
 void setup()
@@ -53,27 +52,33 @@ void setup()
   pinMode(12, OUTPUT);
 
   for (counter = 0; counter < 1000; ++counter) {
-    digitalWrite(13, HIGH);
-    digitalWrite(11, LOW);
-    if (digitalRead(8) == HIGH) {
-      tone(5, 1.992476322042289e+26, 1500); // play tone 1000 (E83 = 1.992476322042289e+26 Hz)
-    }
-    delay(1500); // Wait for 1500 millisecond(s)
-    digitalWrite(13, LOW);
-    digitalWrite(12, HIGH);
-    if (digitalRead(8) == HIGH) {
-      tone(5, 5938042169935402000, 1500); // play tone 700 (E58 = 5938042169935402000 Hz)
-    }
-    delay(1500); // Wait for 1500 millisecond(s)
-    digitalWrite(12, LOW);
     digitalWrite(11, HIGH);
-    delay(1500); // Wait for 1500 millisecond(s)
+    digitalWrite(13, LOW);
+    delay(1500); // Wait for 1500 ms
+
+    digitalWrite(11, LOW);
+    digitalWrite(12, HIGH);
+
+    if (digitalRead(8) == HIGH) {
+      tone(5, 1000, 1500); // Play 700 Hz tone for 1500 ms
+    }
+    delay(1500);
+
+    digitalWrite(12, LOW);
+    digitalWrite(13, HIGH);
+
+    if (digitalRead(8) == HIGH) {
+      tone(5, 500, 1500); // Play 1000 Hz tone for 1500 ms
+    }
+    delay(1500);
+
+    noTone(5);  // Stop any tone on pin 5
   }
 }
 
 void loop()
 {
-  delay(10); // Delay a little bit to improve simulation performance
+  delay(10); // Small delay for performance
 }
 
 `````
