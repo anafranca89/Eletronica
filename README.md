@@ -105,3 +105,8 @@ Os resistores ligados ao led, ao diodo zenner, ao potenciômetro e ao transistor
 ![Segunda imagem do projeto físico](img/img2fonte.jpg)
 
 
+## Membros do Grupo:
+- Ana Julia França  - 16838230\ 
+- Maria Fernanda Maia - 16889342\ 
+- Pedro Otavio -
+
