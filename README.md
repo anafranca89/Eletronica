@@ -101,7 +101,4 @@ void setup()
 
 ![Imagem do projeto físico](img/circuitofisico.jpeg)
 
-![Imagem do projeto físico]()
-
-![Imagem do circuito projetado no Tinkercad](img/imgcircuito.jpg)
 
