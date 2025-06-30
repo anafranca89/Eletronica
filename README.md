@@ -12,12 +12,12 @@ O projeto foi simulado digitalmente no site Tinkercad.
 
 | Quant. | Nome do Componente | Especificação | Valor |
 |---|---|---|---|
-| 1| Protoboard|    |  |
-| 3| LED difuso |       |  | 
+| 1| Protoboard| 400 pontos   | R$ 21,70 |
+| 3| LED difuso |  5mm     | R$ 1,50 | 
 | 1| Buzzer |      |  |
-| 1| Push button         |     |  | 
-| 3 | Resistores|   |  | 
-| TOTAL |--------- |--------- |R$ 22,98|
+| 1| Push button|     | R$ 1,00 | 
+| 3 | Resistores|   | R$ 0,70 - 10 unidades | 
+| TOTAL |--------- |--------- |R$ 24,90|
 
 
 ## Explicação do uso dos componentes: 
@@ -33,4 +33,12 @@ Utilizados para controlar a corrente que passa pelo LED.
 
 ### Buzzer:
 É o componente utilizado para soar o alarme.
+
+## Imagens do Projeto:
+
+![Imagem do projeto físico]()
+
+![Imagem do projeto físico]()
+
+![Imagem do circuito projetado no Tinkercad](img/imgcircuito.jpg)
 
