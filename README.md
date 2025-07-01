@@ -106,7 +106,7 @@ Os resistores ligados ao led, ao diodo zenner, ao potenciômetro e ao transistor
 
 
 ## Membros do Grupo:
-- Ana Julia França  - 16838230\ 
-- Maria Fernanda Maia - 16889342\ 
-- Pedro Otavio - 16896987
+- Ana Julia França \
+- Maria Fernanda Maia \ 
+- Pedro Otavio
 
