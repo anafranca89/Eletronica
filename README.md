@@ -106,4 +106,6 @@ void loop()
 
 ![Imagem do projeto físico](img/circuitofisico.jpeg)
 
-
+## Membros do Grupo:
+- Ana Julia França  - 16838230\ 
+- Maria Fernanda Maia - 16889342\ 
